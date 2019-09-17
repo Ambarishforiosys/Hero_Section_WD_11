@@ -1,0 +1,180 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+p
+{
+  width: 100%;
+  height: auto;
+  font-family: Rubik;
+  font-size: 62px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: -1.88px;
+  color: #ffffff;
+}
+span
+{
+  width: 100%;
+  height: 90px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  margin-top: 26px;
+}
+button {
+  width: 148px;
+  height: 53px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  color: #000000;
+  padding: 4px;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+.container
+{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background: #000;
+}
+.content
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4% 0% 4% 10%;
+}
+.iphone
+{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 4% 0% 4% 0%;
+}
+@media screen and (min-width: 2000px) {
+  .container {
+    padding: 5rem 30rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px)
+{
+  .container,.iphone
+  {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .content
+  {
+    width: 100%;
+      justify-content: center;
+  }
+  button
+  {
+    margin-top:5em;
+  }
+}
+@media only screen and (max-width: 600px)
+{
+  .container {
+    padding: 5rem 5rem; */
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+  }
+  .container .content {
+    justify-self: center;
+    align-self: center;
+    width:100%;
+  }
+  .container .iphone {
+    margin-top:
+    justify-self: center;
+    align-self: center;
+    width:100%;
+
+  }
+  button {
+    margin-top: 1%;
+    text-align: center;
+    justify-self: center;
+    margin: 0 auto;
+  }
+}
+ @media screen and (max-width: 425px)
+{
+  .container
+  {
+    width: 100%;
+    justify-content: center;
+  }
+  .content,p,span
+  {
+    justify-content: center;
+  }
+  button
+  {
+    margin-top: 2em;
+  }
+}
+ @media screen and (max-width: 320px) {
+
+  .container.content,span {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .iphone
+  {
+    justify-content: center;
+  }
+  span
+  {
+    margin-bottom: 4em;
+  }
+
+  button
+  {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 375px) {
+
+ .container,span {
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+ }
+ .content, .iphone
+ {
+   justify-content: center;
+ }
+ span
+ {
+   margin-bottom: 4em;
+ }
+
+ button
+ {
+   margin: 0 auto;
+ }
+}
